@@ -1,3 +1,66 @@
-* {
-    background: wheat;
+/*Сбрасываем настройки по умолчанию*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+li {
+  margin: 0;
+}
+
+ul[class] {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/********Задаем шрифт для документа********/
+body {
+    font-family: 'Raleway', sans-serif;;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    color: #676767;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/********Шапка документа********/
+.header {
+    border: 5px rgb(0, 9, 128) solid;
+}
+
+/********Основная часть********/
+.main {
+    border: 5px rgb(128, 0, 21) solid;
+}
+
+/********Подвал********/
+.footer {
+    border: 5px green solid;
 }
