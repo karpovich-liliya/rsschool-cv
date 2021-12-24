@@ -1,2 +1,2 @@
-# rsschool-cv
-My CV
+https://karpovich-liliya.github.io/rsschool-cv/
+
