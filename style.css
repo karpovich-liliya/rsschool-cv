@@ -144,6 +144,11 @@ body {
     color: #676767;
 }
 
+.pre {
+    padding: 0;
+    margin: 0;
+  }
+
 /********Подвал********/
 .footer {
     border: 5px green solid;
