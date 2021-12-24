@@ -131,9 +131,6 @@ body {
 .section-item {
     margin-top: 14px;
     margin-bottom: 14px;
-}
-
-.contacts-item {
     list-style: disc;
     list-style-position: inside;
 }
