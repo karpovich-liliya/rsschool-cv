@@ -38,8 +38,9 @@
                     <h3 class="main-subtitle">Junior front-end developer</h3>
                 </div>
             </section>
+            <div class="main-container">
             <!--Секция контакты-->
-            <section class="contacts">
+            <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
                 <ul class="section-list">
                     <li class="section-item contacts-item">Minsk, Belarus</li>
@@ -49,12 +50,12 @@
                 </ul>
             </section>
             <!--Секция обо мне-->
-            <section class="about-me">
+            <section class="section" id="about-me">
                 <h2 class="section-title">About Me</h2>
-                <p>I am 30 years old, I work as a researcher. My goal is to gain knowledge in the field of front-end development.</p>
+                <p class="section-text">I am 30 years old, I work as a researcher. My goal is to gain knowledge in the field of front-end development.</p>
             </section>
             <!--Секция навыки-->
-            <section class="skills">
+            <section class="section" id="skills">
                 <h2 class="section-title">skills</h2>
                 <ul class="section-list">
                     <li class="section-item skills-item">HTML</li>
@@ -63,18 +64,18 @@
                     <li class="section-item skills-item">Figma</li>
                 </ul>
             </section>
-            <section class="code-examples">
+            <section class="section" id="code-examples">
                 <h2 class="section-title">code examples</h2>
                 <pre class="pre">
                     <code>
-                        "function multiply(a, b) {
-                        return a * b ;
-                        }"
+function multiply(a, b) {
+    return a * b ;
+}
                     </code>
                 </pre>
             </section>
             <!--Секция образование-->
-            <section class="education">
+            <section class="section" id="education">
                 <h2 class="section-title">education</h2>
                 <ul class="section-list">
                     <li class="section-item education-item">2008 - 2013 Energy Engineer, Belarusian State Technological University</li>
@@ -83,16 +84,22 @@
                 </ul>
             </section>
             <!--Секция уровень английского-->
-            <section class="english">
+            <section class="section" id="english">
                 <h2 class="section-title">english</h2>
                 <p>A1 - Beginner</p>
             </section>
+            </div>
         </div>
     </main>
     
     <!--Подвал документа-->
     <footer class="footer">
-        <div class="container">Подвал</div>
+        <div class="container footer-container">
+            <div>
+                © 2022 <a href="https://github.com/karpovich-liliya" class="github nav-link" target="_blank">Liliya Karpovich</a>
+            </div>
+            <a href="https://rs.school/js/" class="rss"  target="_blank"></a>
+        </div>
     </footer>
 </body>
 </html>
