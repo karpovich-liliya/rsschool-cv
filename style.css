@@ -51,6 +51,9 @@ body {
 
 
 /********Шапка CV********/
+.header {
+    background: #F7C4B1;
+}
 
 /********Навигация по CV********/
 .nav-list {
@@ -65,7 +68,7 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
-    line-height: 50px;
+    line-height: 80px;
     letter-spacing: 0.1em;
     color: #000000; 
   }
@@ -77,9 +80,45 @@ body {
 
 /********Основная часть********/
 .main {
-    border: 5px rgb(128, 0, 21) solid;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+
+.main-subtitle {
+    margin: 10px auto;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;     
+}
 /********Подвал********/
 .footer {
     border: 5px green solid;
