@@ -31,30 +31,163 @@ a {
 
 /********Задаем шрифт для документа********/
 body {
-    font-family: 'Raleway', sans-serif;;
-    font-style: normal;
-    font-size: 26px;
-    line-height: 28px;
-    letter-spacing: 0.05em;
-    font-weight: 300;
-    color: #676767;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 900px;
     margin: 0 auto;
+    padding: 0 15px;
+    background-color: #23345C;
+    border-radius: 5px;
 }
 
 
-/********Шапка CV********/
+.header {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.header-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.link {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.link:hover {
+   color: #F1BA48;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.left-column {
+    width: 45%;
+    height: 500px;
+    padding-top: 17px;
+    padding-bottom: 23px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-section {
+    margin-bottom: 20px;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+.title-cv {
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.subtitle-cv {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.photo-section {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid #ffffff;
+    overflow: hidden;
+}
+
+.profile-photo {
+    width: 185px;
+    height: 150px;
+}
+
+.section-title {
+    width: 90%;
+    height: 34px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.right-column {
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.footer {
+    height: 50px;
+    margin-top: auto;
+    color: #ffffff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-data {
+    display: flex;
+    gap: 10px;
+}
+
+.link-rss {
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-image: url('assets/svg/rss.svg');
+    background-repeat: no-repeat;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(182deg) brightness(104%) contrast(102%);
+}
+
+.link-rss:hover {
+    filter: invert(79%) sepia(14%) saturate(2226%) hue-rotate(340deg) brightness(107%) contrast(89%);
+}
+
+/********Шапка CV
 .header {
     background: #F7C4B1;
-}
+}********/
 
-/********Навигация по CV********/
+/********Навигация по CV
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -74,9 +207,9 @@ body {
 
 .nav-link:hover {
     color: #676767;
-}
+}********/
 
-/********Основная часть********/
+/********Основная часть
 .main {
     padding: 15px;
 }
@@ -171,9 +304,9 @@ body {
 
 .section-link:hover {
     color: #000000;
-}
+}********/
 
-/********Подвал********/
+/********Подвал
 .footer {
     background: #F7C4B1;
     margin-top: auto;
@@ -192,4 +325,4 @@ body {
     height: 45px;
     background-image: url("assets/svg/rss.svg");
     background-repeat: no-repeat;
-}
+}********/
