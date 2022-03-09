@@ -215,8 +215,93 @@ body {
 
 .right-column {
     width: 54%;
+    padding-top: 10px;
+    padding-bottom: 20px;
     background-color: #ffffff;
     border-radius: 3px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.education-title,
+.english-title {
+    align-self: flex-end;
+    color: #ffffff;
+    background-color: #d53c3c;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.education-item {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+.left-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24%;
+}
+
+.years-education,
+.city {
+    font-size: 17px;
+}
+
+.right-col {
+    width: 70%;
+}
+
+.speciality {
+    font-weight: 700;
+}
+
+.university {
+    font-size: 17px;
+}
+
+.code-section,
+.projects-section {
+    padding-left: 0;
+}
+
+.code-title,
+.projects-title {
+    color: #ffffff;
+    background-color: #F1BA48;
+}
+
+.snippet {
+    margin: 0;
+    padding-left: 25px;
+}
+
+.english-title {
+    margin-top: 0;
+}
+
+.projects-item {
+    padding-left: 25px;
+    
+}
+
+.projects-link {
+    line-height: 25px;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.projects-link:hover {
+    font-weight: 700;
+    font-size: 19px;
+    color: #d53c3c;
 }
 
 .footer-container {
