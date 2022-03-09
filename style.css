@@ -33,6 +33,201 @@ a {
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #23345C;
+    border-radius: 5px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+/**Навигация**/
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #F1BA48;
+ }
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left-column {
+    width: 45%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.profile-title {
+    margin-bottom: 7px;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.profile-subtitle {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.profile-avatar {
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    border: 3px solid #F1BA48;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.avatar {
+    width: 197px;
+    height: 160px;
+}
+
+.section-title {
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.section-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.contacts-item {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-left: 40px;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+.contacts-item:nth-child(1) {
+    background-image: url("assets/svg/home.svg");
+}
+
+.contacts-item:nth-child(2) {
+    background-image: url("assets/svg/phone.svg");
+}
+
+.contacts-item:nth-child(3) {
+    background-image: url("assets/svg/email.svg");
+}
+
+.contacts-item:nth-child(4) {
+    background-image: url("assets/svg/discord.svg");
+}
+
+.contacts-link {
+    padding-left: 7px;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.contacts-link:hover {
+    color: #F1BA48;
+}
+
+.skills-item {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.skills-progress {
+    width: calc(100% - 15px);
+    height: 12px;
+    border: 2px solid #F1BA48;
+}
+
+.html,
+.css {
+   background: linear-gradient(to right, #F1BA48 0%, #F1BA48 80%, transparent 80%,  transparent 100% );
+}
+
+.javascript,
+.git {
+    background: linear-gradient(to right, #F1BA48 0%, #F1BA48 40%, transparent 40%,  transparent 100% );
+}
+
+.figma {
+    background: linear-gradient(to right, #F1BA48 0%, #F1BA48 70%, transparent 70%,  transparent 100% );
+}
+
+.right-column {
+    width: 54%;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.footer-container {
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+/**body {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -180,7 +375,7 @@ body {
 
 .link-rss:hover {
     filter: invert(79%) sepia(14%) saturate(2226%) hue-rotate(340deg) brightness(107%) contrast(89%);
-}
+}**/
 
 /********Шапка CV
 .header {
