@@ -12,8 +12,10 @@ I am 30 years old, I work as a researcher. My goal is to gain knowledge in the f
 ## Skills
 * HTML
 * CSS
+* Javascript
 * Git/GitHub
 * Figma
+
 
 ## Code Examples
 ``` function multiply(a, b){

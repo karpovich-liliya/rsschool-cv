@@ -49,13 +49,13 @@ body {
     border-radius: 5px;
 }
 
+/******Header******/
 .header-container {
     display: flex;
     justify-content: flex-end;
     height: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
-
 
 /**Навигация**/
 .nav {
@@ -78,6 +78,7 @@ body {
     color: #F1BA48;
  }
 
+/******Main******/
 .main-container {
     display: flex;
     justify-content: space-between;
@@ -87,8 +88,8 @@ body {
 
 .left-column {
     width: 45%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 3px;
 }
@@ -96,7 +97,7 @@ body {
 .profile {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -105,12 +106,12 @@ body {
 
 .profile-title {
     margin-bottom: 7px;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 400;
 }
 
 .profile-subtitle {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 16px;
     font-weight: 400;
 }
@@ -132,11 +133,11 @@ body {
 
 .section-title {
     width: 90%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 32px;
     text-align: center;
     text-transform: uppercase;
     background-color: #ffffff;
@@ -146,7 +147,7 @@ body {
 .section-text {
     padding-left: 15px;
     padding-right: 15px;
-    line-height: 25px;
+    line-height: 23px;
     color: #ffffff;
 }
 
@@ -302,6 +303,7 @@ body {
     color: #d53c3c;
 }
 
+/******Footer******/
 .footer {
     margin-top: auto;
 }
@@ -311,7 +313,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    margin-top: 10px;
+    margin-top: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
     color: #ffffff;
