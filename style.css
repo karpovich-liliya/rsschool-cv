@@ -299,310 +299,44 @@ body {
 }
 
 .projects-link:hover {
-    font-weight: 700;
-    font-size: 19px;
     color: #d53c3c;
 }
 
+.footer {
+    margin-top: auto;
+}
+
 .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 50px;
     margin-top: 10px;
-}
-
-
-/**body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 15px;
-    background-color: #23345C;
-    border-radius: 5px;
-}
-
-
-.header {
-    height: 50px;
-    margin-bottom: 10px;
-}
-
-.header-container {
     padding-top: 15px;
     padding-bottom: 15px;
+    color: #ffffff;
 }
 
-.nav-list {
-    display: flex;
-    justify-content: flex-end;
-    gap: 15px;
-}
-
-.link {
+.github-link {
+    text-transform: uppercase;
     color: #ffffff;
     transition: 0.5s;
 }
 
-.link:hover {
-   color: #F1BA48;
+.github-link:hover {
+    color: #F1BA48;
 }
 
-.main-container {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.left-column {
-    width: 45%;
-    height: 500px;
-    padding-top: 17px;
-    padding-bottom: 23px;
-    color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 5px;
-}
-
-.profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.title-section {
-    margin-bottom: 20px;
-    text-transform: uppercase; 
-    text-align: center;
-}
-
-.title-cv {
-    margin-bottom: 7px;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 45px;
-}
-
-.subtitle-cv {
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 17px;
-}
-
-.photo-section {
-    display: flex;
-    justify-content: center;
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    border: 2px solid #ffffff;
-    overflow: hidden;
-}
-
-.profile-photo {
-    width: 185px;
-    height: 150px;
-}
-
-.section-title {
-    width: 90%;
-    height: 34px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 18px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #000000;
-    background: #ffffff;
-    border-radius: 0px 30px 30px 0px;
-}
-
-.right-column {
-    width: 50%;
-    height: 100%;
-    background-color: #ffffff;
-}
-
-.footer {
-    height: 50px;
-    margin-top: auto;
-    color: #ffffff;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.footer-data {
-    display: flex;
-    gap: 10px;
-}
-
-.link-rss {
+.rss-link {
     display: block;
     width: 100px;
     height: 40px;
     background-image: url('assets/svg/rss.svg');
     background-repeat: no-repeat;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(182deg) brightness(104%) contrast(102%);
+    transition: 0.5s;
 }
 
-.link-rss:hover {
+.rss-link:hover {
     filter: invert(79%) sepia(14%) saturate(2226%) hue-rotate(340deg) brightness(107%) contrast(89%);
-}**/
-
-/********Шапка CV
-.header {
-    background: #F7C4B1;
-}********/
-
-/********Навигация по CV
-.nav-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
-
-.nav-link {
-    position: relative;
-    padding: 0 12px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 80px;
-    letter-spacing: 0.1em;
-    color: #000000; 
-  }
-
-.nav-link:hover {
-    color: #676767;
-}********/
-
-/********Основная часть
-.main {
-    padding: 15px;
-}
-
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.profile {
-    display: flex;
-    justify-content: space-between;
-}
-
-.profile-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.main-title {
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 57px;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    color: #000000;
-}
-
-.main-subtitle {
-    margin: 10px auto;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-.profile-photo {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;     
-}
-
-.section {
-    margin-top: 30px;
-    padding-left: 20px;
-    width: 50%;
-}
-
-.section-title {
-    margin-bottom: 20px;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 34px;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    color: #000000;
-}
-
-.section-item {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    line-height: 35px;
-    list-style: disc;
-    list-style-position: inside;
-}
-
-.section-text {
-    line-height: 35px;
-}
-
-.contacts-link {
-    font-weight: 600;
-    color: #000000;
-}
-
-.contacts-link:hover {
-    color: #676767;
-}
-
-
-.pre {
-    padding: 0;
-    margin: 0;
-  }
-
-.section-link {
-    color: #676767;
-}
-
-.section-link:hover {
-    color: #000000;
-}********/
-
-/********Подвал
-.footer {
-    background: #F7C4B1;
-    margin-top: auto;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.rss {
-    display: block;
-    width: 121px;
-    height: 45px;
-    background-image: url("assets/svg/rss.svg");
-    background-repeat: no-repeat;
-}********/
