@@ -42,3 +42,9 @@ I am 30 years old, I work as a researcher. My goal is to gain knowledge in the f
 
 ## *English*
 A1 - Beginner
+
+## *Project*
+* [Portfolio](https://rolling-scopes-school.github.io/karpovich-liliya-JSFEPRESCHOOL/portfolio/)
+* [Image galery](https://rolling-scopes-school.github.io/karpovich-liliya-JSFEPRESCHOOL/image-galery/)
+* [Memory game](https://rolling-scopes-school.github.io/karpovich-liliya-JSFEPRESCHOOL/memory-game/)
+* [Shelter](https://rolling-scopes-school.github.io/karpovich-liliya-JSFE2022Q1/shelter/pages/main/)
