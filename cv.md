@@ -26,7 +26,16 @@ I am 30 years old, I work as a researcher. My goal is to gain knowledge in the f
 
 
 ## *Code Examples*
-``` function multiply(a, b){
-    return a * b
-} 
+``` function toggleVideo() {
+    if (!video.paused) {
+        video.pause();
+        playBtn.classList.remove('play');
+        playerBtn.classList.remove('play');
+    } else {       
+        video.play();
+        playBtn.classList.add('play');
+        playerBtn.classList.add('play');
+        videoPlayer.classList.add('play');
+    } 
+}; 
 ```
