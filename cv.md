@@ -26,7 +26,8 @@ I am 30 years old, I work as a researcher. My goal is to gain knowledge in the f
 
 
 ## *Code Examples*
-``` function toggleVideo() {
+``` 
+function toggleVideo() {
     if (!video.paused) {
         video.pause();
         playBtn.classList.remove('play');
