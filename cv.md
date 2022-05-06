@@ -1,4 +1,5 @@
 # Liliya Karpovich
+![My photo](assets/img/avatar.jpg "Liliya Karpovich")
 
 ## Contacts
 * Address: Minsk, Belarus
@@ -15,7 +16,6 @@ I am 30 years old, I work as a researcher. My goal is to gain knowledge in the f
 * Javascript
 * Git/GitHub
 * Figma
-
 
 ## Code Examples
 ``` function multiply(a, b){
