@@ -29,6 +29,9 @@
                         <a href="#education" class="nav-link">Education</a>
                     </li>
                     <li class="nav-item">
+                        <a href="#courses" class="nav-link">Courses</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#code-examples" class="nav-link">Code Examples</a>
                     </li>
                     <li class="nav-item">
@@ -84,6 +87,9 @@
                         <li class="skills-item">CSS
                             <div class="skills-progress css"></div>
                         </li>
+                        <li class="skills-item">Sass
+                            <div class="skills-progress sass"></div>
+                        </li>
                         <li class="skills-item">Javascript
                             <div class="skills-progress javascript"></div>
                         </li>
@@ -133,28 +139,41 @@
                         </li>
                     </ul>
                 </section>
+                <section class="section courses-section" id="courses">
+                    <h2 class="section-title courses-title">courses</h2>
+                    <ul class="education-list">
+                        <li class="education-item">
+                            <div class="left-col">
+                                <div class="years-education">2021 - 2022</div> 
+                            </div>
+                            <div class="right-col">
+                                <div class ="speciality">JS/FE PRE-SCHOOL 2022 (JAVASCRIPT)</div>
+                                <div class="university">THE ROLLING SCOPES SCHOOL</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <img src="assets/img/certificat.png" alt="certificat" class="certificat">
+                </section>
                 <!--Section Code Examples-->
                 <section class="section code-section" id="code-examples">
                     <h2 class="section-title code-title">code examples</h2>
                     <pre class="snippet">
                         <code>
-function toggleVideo() {
-    if (!video.paused) {
-        video.pause();
-        playBtn.classList.remove('play');
-        playerBtn.classList.remove('play');
-    } else {       
-        video.play();
-        playBtn.classList.add('play');
-        playerBtn.classList.add('play');
-        videoPlayer.classList.add('play');
-    } 
-};
+const btn = document.querySelectorAll('.portfolio-button');
+
+function changeClassActive(event) {
+    if (event.target.classList.contains('portfolio-button')) {
+            btn.forEach(el => el.classList.remove('active-btn'));
+        }
+    event.target.classList.add('active-btn');
+}
+                            
+btn.forEach(el => el.addEventListener('click', changeClassActive));
                         </code>
                     </pre>
                 </section>
                 <!--Section English-->
-                <section class="section" id="english">
+                <section class="section english-section" id="english">
                     <h2 class="section-title english-title">english</h2>
                     <p>A1 - Beginner</p>
                 </section>
@@ -170,6 +189,9 @@ function toggleVideo() {
                         </li>
                         <li class="projects-item">
                             <a href="https://rolling-scopes-school.github.io/karpovich-liliya-JSFEPRESCHOOL/memory-game/" class="projects-link" target="_blank">Memory game</a>
+                        </li>
+                        <li class="projects-item">
+                            <a href="https://rolling-scopes-school.github.io/karpovich-liliya-JSFE2022Q1/shelter/pages/main/" class="projects-link" target="_blank">Shelter</a>
                         </li>
                     </ul>
                 </section>
